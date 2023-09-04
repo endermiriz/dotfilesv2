@@ -1,0 +1,31 @@
+import:
+    - ~/.config/alacritty/themes/themes/cyber_punk_neon.yaml
+
+window:
+    opacity: 0.6
+
+    padding:
+        x: 6
+        y: 6
+    title: Alacritty
+
+    class:
+        instance: Alacritty
+        general: Alacritty
+
+font:
+    normal:
+        family: MesloLGS NF
+        style: Regular
+    bold:
+        family: MesloLGS NF
+        style: Bold
+    italic:
+        family: MesloLGS NF
+        style: Italic
+    bold_italic:
+        family: MesloLGS NF
+        style: Bold Italic
+    size: 14.0
+    
+draw_bold_text_with_bright_colors: true
