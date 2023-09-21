@@ -1,0 +1,17 @@
+[commands]
+
+reboot = [ "systemctl", "reboot" ]
+poweroff = [ "systemctl", "poweroff" ]
+
+
+[background]
+path = "/usr/share/backgrounds/peakpx.jpg"
+fit = "Cover"
+
+[GTK]
+
+application_prefer_dark_theme = true
+cursor_theme_name = "Sweet-cursors"
+font_name = "Noto Sans 11"
+# icon_theme_name = "cyberpunk-technotronic"
+theme_name = "Sweet-Dark-v40"
