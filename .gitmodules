@@ -4,3 +4,12 @@
 [submodule "kitty/themes"]
 	path = kitty/themes
 	url = https://github.com/dexpota/kitty-themes
+[submodule "mpv/git-scripts/ModernX"]
+	path = mpv/git-scripts/ModernX
+	url = https://github.com/zydezu/ModernX
+[submodule "mpv/git-scripts/thumbfast"]
+	path = mpv/git-scripts/thumbfast
+	url = https://github.com/po5/thumbfast
+[submodule "mpv/git-scripts/celebi"]
+	path = mpv/git-scripts/celebi
+	url = https://github.com/po5/celebi
