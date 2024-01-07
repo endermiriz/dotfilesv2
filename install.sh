@@ -13,6 +13,12 @@ for file in "$src_dir"/*; do
     # Extract the filename from the full path
     filename=$(basename "$file")
 
+    # Skip git files
+    if [[ "$filename" == .git* ]]; then
+        echo "Skipped git file: $filename"
+        continue
+    fi
+
     # Set the destination path for the symbolic link
     if [[ "$filename" == .* ]]; then
         # If the file starts with a dot, link it to the home directory
