@@ -1,4 +1,5 @@
 #!/bin/bash
+shopt -s dotglob
 
 # Set the source directory to the current directory
 src_dir=$(pwd)
