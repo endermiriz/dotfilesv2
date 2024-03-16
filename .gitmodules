@@ -13,3 +13,6 @@
 [submodule "mpv/git-scripts/celebi"]
 	path = mpv/git-scripts/celebi
 	url = https://github.com/po5/celebi
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/NvChad/NvChad
