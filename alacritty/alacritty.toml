@@ -1,0 +1,35 @@
+import = ["/home/teoman/.config/alacritty/themes/themes/cyber_punk_neon.toml"]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[font]
+size = 14.0
+
+[font.bold]
+family = "MesloLGS NF"
+style = "Bold"
+
+[font.bold_italic]
+family = "MesloLGS NF"
+style = "Bold Italic"
+
+[font.italic]
+family = "MesloLGS NF"
+style = "Italic"
+
+[font.normal]
+family = "MesloLGS NF"
+style = "Regular"
+
+[window]
+opacity = 0.6
+title = "Alacritty"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 6
+y = 6

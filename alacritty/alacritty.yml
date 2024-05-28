@@ -2,7 +2,7 @@ import:
     - ~/.config/alacritty/themes/themes/cyber_punk_neon.yaml
 
 window:
-    opacity: 0.6
+    opacity: 0.4
 
     padding:
         x: 6
