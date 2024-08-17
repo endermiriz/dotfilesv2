@@ -24,8 +24,8 @@
 #custom-vpn {
 	padding: 0 10px;
 	border-radius: 15px;
-	background: #11111b;
-	color: #b4befe;
+	/* background: #11111b; */
+	/* color: #b4befe; */
 	box-shadow: rgba(0, 0, 0, 0.116) 2 2 5 2px;
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -44,6 +44,11 @@ window#waybar {
 #custom-dynamic_pill.paused label {
 	color: #89b4fa;
 	font-weight: bolder;
+}
+
+#custom-vpn {
+	background: rgba(0, 149, 255, 0.5);
+	animation: waterFlow 4s infinite linear;
 }
 
 #workspaces button label {
@@ -309,7 +314,23 @@ window#waybar {
 }
 
 #clock {
-	background: radial-gradient(circle, rgba(0, 0, 255, 0.5) 20%, transparent 70%);
+	background: radial-gradient(circle, rgba(77, 180, 253, 0.502) 20%, transparent 70%);
+	animation: waterFlow 4s infinite linear;
+	/* margin-right: 25px; */
+	color: #fff;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
+	font-size: 14px;
+	padding-right: 21px;
+	font-weight: bolder;
+	padding-left: 20px;
+}
+
+#clock#date {
+	margin-left: 10px;
+}
+
+#clock#time {
+	background: radial-gradient(circle, rgba(77, 180, 253, 0.502) 20%, transparent 70%);
 	animation: waterFlow 4s infinite linear;
 	margin-right: 25px;
 	color: #fff;
@@ -350,19 +371,24 @@ window#waybar {
 	animation-direction: alternate;
 }
 
-#cpu label {
-	color: #89dceb;
+#cpu {
+	background: radial-gradient(circle, rgba(0, 149, 255, 0.5) 20%, transparent 70%);
+	animation: waterFlow 4s infinite linear;
 }
 
-#cpu {
-	background: rgb(30, 30, 46);
-	background: radial-gradient(circle, rgba(30, 30, 46, 1) 30%, rgba(17, 17, 27, 1) 100%);
-	color: #89b4fa;
+#cpu.warning {
+	background: radial-gradient(circle, rgba(238, 255, 0, 0.607) 15%, transparent 70%);
+	animation: waterFlow 4s infinite linear;
+}
+
+#cpu.critical {
+	background: radial-gradient(circle, rgba(255, 0, 0, 0.5) 15%, transparent 70%);
+	animation: waterFlow 4s infinite linear;
 }
 
 #memory {
-	background-color: #cba6f7;
-	color: #9a75c7;
+	background: radial-gradient(circle, rgba(0, 149, 255, 0.5) 20%, transparent 70%);
+	animation: waterFlow 4s infinite linear;
 	font-weight: bolder;
 }
 
@@ -375,7 +401,24 @@ window#waybar {
 }
 
 #network {
-	color: #000;
+	background: radial-gradient(circle, rgba(0, 149, 255, 0.5) 20%, transparent 70%);
+	animation: waterFlow 4s infinite linear;
+}
+
+#network .label,
+#network .value {
+	color: #00ffff;
+	text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff;
+	font-weight: bold;
+}
+
+@keyframes neonPulse {
+	from {
+		box-shadow: 0 0 15px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.4);
+	}
+	to {
+		box-shadow: 0 0 25px rgba(0, 255, 255, 1), 0 0 50px rgba(0, 255, 255, 0.6);
+	}
 }
 
 #network.disabled {
@@ -396,13 +439,9 @@ window#waybar {
 	background-color: #a6e3a1;
 }
 
-#network.ethernet {
-	background-color: #f9e2af;
-}
-
 #pulseaudio {
-	background-color: #fab387;
-	color: #bf7d54;
+	background: radial-gradient(circle, rgba(0, 149, 255, 0.5) 20%, transparent 70%);
+	animation: waterFlow 4s infinite linear;
 	font-weight: bolder;
 }
 
@@ -423,17 +462,29 @@ window#waybar {
 }
 
 #temperature {
-	background-color: #f9e2af;
-	color: #96804e;
+	background: radial-gradient(circle, rgba(0, 149, 255, 0.5) 20%, transparent 70%);
+	animation: waterFlow 4s infinite linear;
+	color: #00ff00;
+	text-shadow: 0 0 5px #00ff0080, 0 0 5px #00ff0080, 0 0 5px #00ff0080;
+	font-weight: bold;
 }
 
 #temperature.critical {
-	background-color: #f38ba8;
-	color: #bf5673;
+	background: radial-gradient(circle, rgba(0, 0, 255, 0.5) 20%, transparent 70%);
+	animation: waterFlow 4s infinite linear;
+	color: #ff0000;
+	text-shadow: 0 0 5px #ff0000, 0 0 5px #ff0000, 0 0 5px #ff0000;
+	font-weight: bold;
 }
 
 #tray {
-	background-color: #2980b9;
+	background: radial-gradient(circle, rgba(41, 128, 185, 0.5) 20%, transparent 70%);
+	animation: waterFlow 4s infinite linear;
+}
+
+#tray .item {
+	color: #00ffff; /* Neon cyan for icons */
+	text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff;
 }
 
 #tray > .passive {
