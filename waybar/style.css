@@ -434,11 +434,6 @@ window#waybar {
 	padding-right: 11px;
 }
 
-#network.linked,
-#network.wifi {
-	background-color: #a6e3a1;
-}
-
 #pulseaudio {
 	background: radial-gradient(circle, rgba(0, 149, 255, 0.5) 20%, transparent 70%);
 	animation: waterFlow 4s infinite linear;
