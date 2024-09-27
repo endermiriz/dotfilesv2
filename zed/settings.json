@@ -1,0 +1,34 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `zed: Open Default Settings` command
+// from the command palette
+{
+  "ui_font_family": "RobotoMono Nerd Font",
+  "buffer_font_family": "RobotoMono Nerd Font",
+  "buffer_font_size": 16,
+  "ui_font_size": 16,
+  "formatter": "prettier",
+  "theme": {
+    "mode": "system",
+    "light": "SynthWave 84 Dark",
+    "dark": "One Dark"
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true
+  },
+  "languages": {
+    "TypeScript": {
+      "inlay_hints": {
+        "enabled": true
+      },
+      "hard_tabs": true
+    }
+  }
+}
