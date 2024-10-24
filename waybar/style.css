@@ -1,5 +1,13 @@
 * {
-	font-family: Signika Nerd Font, FiraCode, Noto Sans, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+	font-family:
+		Signika Nerd Font,
+		FiraCode,
+		Noto Sans,
+		FontAwesome,
+		Roboto,
+		Helvetica,
+		Arial,
+		sans-serif;
 	font-size: 13px;
 }
 
@@ -408,16 +416,23 @@ window#waybar {
 #network .label,
 #network .value {
 	color: #00ffff;
-	text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff;
+	text-shadow:
+		0 0 5px #00ffff,
+		0 0 10px #00ffff,
+		0 0 20px #00ffff;
 	font-weight: bold;
 }
 
 @keyframes neonPulse {
 	from {
-		box-shadow: 0 0 15px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.4);
+		box-shadow:
+			0 0 15px rgba(0, 255, 255, 0.8),
+			0 0 30px rgba(0, 255, 255, 0.4);
 	}
 	to {
-		box-shadow: 0 0 25px rgba(0, 255, 255, 1), 0 0 50px rgba(0, 255, 255, 0.6);
+		box-shadow:
+			0 0 25px rgba(0, 255, 255, 1),
+			0 0 50px rgba(0, 255, 255, 0.6);
 	}
 }
 
@@ -460,7 +475,10 @@ window#waybar {
 	background: radial-gradient(circle, rgba(0, 149, 255, 0.5) 20%, transparent 70%);
 	animation: waterFlow 4s infinite linear;
 	color: #00ff00;
-	text-shadow: 0 0 5px #00ff0080, 0 0 5px #00ff0080, 0 0 5px #00ff0080;
+	text-shadow:
+		0 0 5px #00ff0080,
+		0 0 5px #00ff0080,
+		0 0 5px #00ff0080;
 	font-weight: bold;
 }
 
@@ -468,7 +486,10 @@ window#waybar {
 	background: radial-gradient(circle, rgba(0, 0, 255, 0.5) 20%, transparent 70%);
 	animation: waterFlow 4s infinite linear;
 	color: #ff0000;
-	text-shadow: 0 0 5px #ff0000, 0 0 5px #ff0000, 0 0 5px #ff0000;
+	text-shadow:
+		0 0 5px #ff0000,
+		0 0 5px #ff0000,
+		0 0 5px #ff0000;
 	font-weight: bold;
 }
 
@@ -479,7 +500,10 @@ window#waybar {
 
 #tray .item {
 	color: #00ffff; /* Neon cyan for icons */
-	text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff;
+	text-shadow:
+		0 0 5px #00ffff,
+		0 0 10px #00ffff,
+		0 0 20px #00ffff;
 }
 
 #tray > .passive {

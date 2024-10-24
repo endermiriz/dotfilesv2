@@ -1,3 +1,4 @@
+[general]
 import = ["/home/teoman/.config/alacritty/themes/themes/cyber_punk_neon.toml"]
 
 [colors]

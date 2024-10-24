@@ -20,9 +20,9 @@ const config = {
 	semi: true,
 	singleQuote: false,
 	tabWidth: 4,
-	trailingComma: "es5",
+	trailingComma: "none",
 	useTabs: true,
-	embeddedLanguageFormatting: "auto",
+	embeddedLanguageFormatting: "auto"
 };
 
 module.exports = config;
