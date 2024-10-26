@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Polypane
+Exec=polypane --password-store=gnome-libsecret --ozone-platform=wayland  %U
+Terminal=false
+Type=Application
+Icon=polypane
+StartupWMClass=Polypane
+X-AppImage-Version=18.0.4
+Comment=Browser for web developers
+MimeType=text/html;text/html;text/html;text/html;text/html;application/json;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/polypane;
+Categories=Network;WebBrowser;Development;
